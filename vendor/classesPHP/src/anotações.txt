@@ -1,0 +1,13 @@
+1 - __construct() e __destruct(). São os métodos executados assim que a classe da página é iniciada e finalizada. Um é responsável por renderizar o header da página e outro renderiza o footer
+
+2 - setData(). Define as variáveis informadas em nosso template
+
+3 - setTpl(). Esse método espera três parâmetros
+
+$name: É o nome do arquivo HTML que queremos renderizar
+
+$data: É um array, onde recebemos os dados ou variáveis que queremos mostrar na página
+
+$returnHtml: É um booleano, que define se o HTML vai ser escrito ou interpretado
+
+Primeiramente, definimos os dados ou variáveis que iremos exibir na tela usando o método setData(), que utiliza o método assign(), nativo do RainTpl
